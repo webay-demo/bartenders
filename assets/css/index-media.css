@@ -1,0 +1,103 @@
+.pc {
+    display: inline-block;
+}
+
+.phone {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .pc {
+        display: none;
+    
+    }
+
+    .phone {
+        display: inline-block;
+    }
+
+    .row-width {
+        width: 100%;
+        padding: 16px;
+    }
+
+    header {
+        background: linear-gradient(105deg, #2a0c5b9a 0%, rgba(0, 0, 0, 0.4) 100%), url('../../resources/images/helena-lopes-a4z8GRkVSUM-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav {
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(1.5);
+    }
+
+    .logo span {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 34px;
+        width: 90%;
+    }
+
+    .h1-sub-text {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .middle {
+        position: absolute;
+        top: 25%;
+        transform: translateY(25%);
+    }
+
+    .social-floating-btns {
+        display: none;
+    }
+
+    .phone-social {
+        display: block;
+        margin-top: 70px;
+    }
+
+    .phone-social a {
+        display: inline-block;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 8px;
+    }
+
+    .phone-social a i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menu-bar {
+        font-size: 22px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 2px 12px;
+        border-radius: 4px;
+        display: inline-block;
+        float: right;
+    }
+
+}
