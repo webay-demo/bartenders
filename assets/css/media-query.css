@@ -1,0 +1,101 @@
+.pc {
+    display: inline-block;
+}
+
+.phone {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .pc {
+        display: none;
+    
+    }
+
+    .phone {
+        display: inline-block;
+    }
+
+    .row-width {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .nav {
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(1.5);
+    }
+
+    .logo span {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-bar {
+        font-size: 22px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 2px 12px;
+        border-radius: 4px;
+        display: inline-block;
+        float: right;
+    }
+
+    .menu-bar:hover {
+        border: 1px solid #fff;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer {
+        padding: 20px 0 0;
+    }
+
+    .p-70 {
+        padding-left: 15px;
+    }
+
+    footer h3 {
+        margin-bottom: 7px;
+        margin-top: 12px;
+        font-size: 17px;
+    }
+
+    footer a, footer p {
+        font-size: 14px;
+    }
+    .about-footer {
+        font-size: 15px;
+    }
+
+    .whatsapp-cta {
+        margin-top: 17px;
+        font-size: 16px;
+    }
+
+    ul.slick-dots {
+        margin-top: 0;
+    }
+
+    .cta-heading {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .cta-text {
+        width: 100%;
+    }
+
+}

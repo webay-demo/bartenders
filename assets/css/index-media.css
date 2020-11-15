@@ -1,46 +1,13 @@
-.pc {
-    display: inline-block;
-}
 
-.phone {
-    display: none;
-}
 
 @media only screen and (max-width: 768px) {
 
-    .pc {
-        display: none;
     
-    }
-
-    .phone {
-        display: inline-block;
-    }
-
-    .row-width {
-        width: 100%;
-        padding: 16px;
-    }
 
     header {
         background: linear-gradient(105deg, #2a0c5b9a 0%, rgba(0, 0, 0, 0.4) 100%), url('../../resources/images/helena-lopes-a4z8GRkVSUM-unsplash.jpg');
         background-size: cover;
         background-position: center;
-    }
-
-    .nav {
-        padding: 4px;
-        background-color: rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(1.5);
-    }
-
-    .logo span {
-        font-size: 22px;
-        margin-left: 0;
-    }
-
-    nav {
-        display: none;
     }
 
     h1 {
@@ -75,12 +42,12 @@
     .phone-social a {
         display: inline-block;
         color: #fff;
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         border: 1px solid #fff;
         border-radius: 50%;
         position: relative;
-        margin-right: 8px;
+        margin-right: 10px;
     }
 
     .phone-social a i {
@@ -98,6 +65,174 @@
         border-radius: 4px;
         display: inline-block;
         float: right;
+    }
+
+    .menu-bar:hover {
+        border: 1px solid #fff;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .about, .services {
+        padding: 35px 0;
+        text-align: center;
+    }
+
+    .middle {
+        position: relative;
+    }
+
+    .about-images {
+        display: block;
+        position: relative;
+    }
+
+    .about img {
+        width: 210px;
+        height: 130px;
+        position: absolute;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        transition: all .2s;
+        outline-offset: 10px;
+    }
+
+    .about-image-1 {
+        top: 0;
+        left: 40%;
+        transform: translateX(-40%);
+    }
+    
+    .about-image-2 {
+        top: 40px;
+        right: 40%;
+        transform: translateX(-40%);
+    }
+    
+    .about-image-3 {
+        display: none;
+    }
+
+    .about-text-p {
+        position: relative;
+        margin-top: 220px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .h2-about-sub-text {
+        font-size: 26px;
+    }
+
+    .about-image-2:hover, .about-image-1:hover {
+        z-index: auto;
+        box-shadow: none;
+        transform: scale(0);
+        outline: none;
+    }
+
+    .russian-title {
+        font-size: 18px;
+    }
+
+    .russian-text {
+        width: 100%;
+    }
+
+    .services-h2-sub-text {
+        width: 100%;
+    }
+
+    .services .row {
+        margin-top: 0;
+    }
+
+    .category {
+        margin: 0 auto;
+    }
+    
+    .cat-r {
+        float: initial;
+        margin: 30px auto 0 auto;
+    }
+
+    .cat-c {
+        margin-top: 30px;
+    }
+
+    .molecular-title {
+        font-size: 18px;
+    }
+
+    .molecular-text {
+        width: 100%;
+    }
+
+    .bartenders {
+        padding-bottom: 0;
+    }
+
+    .bartenders .row {
+        margin-top: 40px;
+    }
+
+    .bartenders .col-md-3 {
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+    .gallery {
+        padding-top: 30px;
+    }
+
+    .gallery-grid {
+        margin-top: 30px;
+    }
+
+    .gallery-image {
+        width: 50%;
+        height: 130px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .gallery .h2-after-text {
+        margin-bottom: 30px;
+    }
+
+    .testimonials {
+        padding: 35px 0;
+    }
+
+    .testimonials .row-width {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .testimonial-title {
+        margin-bottom: 0;
+    }
+
+    .testimonial-heading {
+        font-size: 26px;
+    }
+
+    .quote-icon {
+        margin: 20px auto 0 auto;
+    }
+
+    .testimonial-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .user-name {
+        font-size: 18px;
+    }
+
+    .user-desg {
+        font-size: 14px;
     }
 
 }

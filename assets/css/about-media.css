@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+
+        .about, .services {
+            padding: 35px 0;
+            text-align: center;
+        }
+
+        .middle {
+            position: relative;
+        }
+
+        .about-images {
+            display: block;
+            position: relative;
+        }
+
+        .about img {
+            width: 210px;
+            height: 130px;
+            position: absolute;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            transition: all .2s;
+            outline-offset: 10px;
+        }
+
+        .about-image-1 {
+            top: 0;
+            left: 40%;
+            transform: translateX(-40%);
+        }
+        
+        .about-image-2 {
+            top: 40px;
+            right: 40%;
+            transform: translateX(-40%);
+        }
+        
+        .about-image-3 {
+            display: none;
+        }
+
+        .about-text-p {
+            position: relative;
+            margin-top: 220px;
+        }
+
+    }

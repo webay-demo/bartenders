@@ -1,0 +1,89 @@
+.nav {
+    padding: 12px;
+    background-color: #1c212a;
+    color: #fff;
+}
+
+.about {
+    width: 100%;
+    padding: 140px 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.h2-about {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ddd;
+    font-weight: 700;
+    height: 20px;
+    margin-bottom: 12px;
+}
+
+.h2-about-sub-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*
+
+h2:after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 4px;
+}
+
+*/
+
+.about h2:after {
+    width: 200px;
+    background: linear-gradient(to right, #222 0%, #d2f21b 45%, #d2f21b 100%);
+}
+
+.about-text {
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 12px;
+    color: #626262;
+}
+
+.about-btn {
+    width: 120px;
+    padding: 7px;
+    text-align: center;
+    background-color: #d2f21b;
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.about img {
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    transition: all .2s;
+    outline-offset: 10px;
+}
+
+.about-image-2 {
+    top: 50px;
+    left: 220px;
+}
+
+.about-image-3 {
+    top: 140px;
+    left: 100px;
+}
+
+.about-image-2:hover, .about-image-1:hover, .about-image-3:hover {
+    z-index: 99;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    outline: 15px solid #d2f21b;
+}
